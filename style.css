@@ -85,28 +85,35 @@ body {
 .gameProjects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
+    gap: 50px;
 }
 
 .writingProjects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    gap: 40px;
+    gap: 50px;
 }
 
 .designProjects {
     align-items: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
+    gap: 50px;
+}
+
+.artProjects {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
 }
 
 .softwareProjects {
     align-items: center;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 40px;
+    gap: 50px;
 }
 
 /* .physicsEssay img, .hopperEssay img, .moralsEssay img, .cruelDesign img, .perputuaGame img, .halloweekendGame img, .irGenerator img, .bowserDesign img {
@@ -166,4 +173,21 @@ body {
     box-shadow: 5px 5px 5px #808080;
     transform: scale(1.02);
     transition: 0.25s ease;
+}
+
+.animations img {
+    margin-top: 30px;
+    height: 340px;
+    width: fit-content;
+    align-items: middle;
+    image-rendering: pixelated; /* THIS FIXED IT */
+}
+
+.gifCaption div {
+    text-align: middle;
+}
+
+.animations {
+    background-size: 50%;
+    
 }
